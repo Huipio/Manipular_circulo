@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Círculo Manipulable</title>
+</head>
+<body>
+  <div id="circle"></div>
+    <div id="controls">
+    <label for="colorPicker">Color:</label>
+    <input type="color" id="colorPicker">
+
+    <label for="sizeRange">Tamaño:</label>
+    <input type="range" id="sizeRange" min="50" max="200" step="1" value="100">
+
+    <button onclick="desaparecerAparecer()">Desaparecer/Aparecer</button>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
